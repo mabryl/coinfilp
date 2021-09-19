@@ -1,4 +1,4 @@
-#Coinflipper
+# Coinflipper
 
 A simple app that you can use when you need to flip a coin but can't find any in your wallet.
 
