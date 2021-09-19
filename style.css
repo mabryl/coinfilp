@@ -1,0 +1,67 @@
+* {
+  color: ivory;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient( 135deg, #92FFC0 10%, #002661 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #16222A 0%, #3A6073  51%, #16222A  100%);
+}
+
+.btn-grad {
+  padding: 15px 45px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+}
+
+.defaultCoin {
+  margin: 100px;
+  background: url("https://en.numista.com/catalogue/photos/royaume-uni/5f246015838b80.35326316-original.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.heads {
+  margin: 100px;
+  background: url("https://en.numista.com/catalogue/photos/royaume-uni/5f2460152d4d29.69215390-original.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.tails {
+  margin: 100px;
+  background-image: url("https://en.numista.com/catalogue/photos/royaume-uni/5f246015838b80.35326316-original.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
